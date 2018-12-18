@@ -58,6 +58,7 @@ wayi_backend代码
 * 使用idea打开项目。
 * 果不能识别maven项目,找到项目的总pom.xml文件，右键-" add as maven project"。
 * 在file->Project Structure->Modules中将wayi-web下src/main/resources设置为Resources。
+
 #eclipse
 * 使用eclipse的maven方式打开项目
 * 找到wayi-web下的src/main/resources, 设置为Source Folder
@@ -68,3 +69,5 @@ wayi_backend代码
 * 调整项目开发环境为 jdk1.8
 * 把wayi-web下application.properties 配置为local
 * 执行 wayi-web下webApplication.java 的 main 方法启动项目
+
+
