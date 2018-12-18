@@ -50,18 +50,17 @@ wayi_backend代码
 
 导入工程
 -----------------------------
-#下载
-* 先将项目fork 到自己账户中
-* 通过git clone 将项目clone到本地
 
 #idea
-* 使用idea打开项目。
-* 果不能识别maven项目,找到项目的总pom.xml文件，右键-" add as maven project"。
-* 在file->Project Structure->Modules中将wayi-web下src/main/resources设置为Resources。
+>> 1.git clone https://github.com/easy2mine/wayi_backend.git 将项目clone到本地<br>
+>> 2.使用idea打开项目。<br>
+>> 3.如果不能识别maven项目,找到项目的总pom.xml文件，右键-" add as maven project"。<br>
+>> 4.在file->Project Structure->Modules中将wayi-web下src/main/resources设置为Resources。<br>
 
 #eclipse
-* 使用eclipse的maven方式打开项目
-* 找到wayi-web下的src/main/resources, 设置为Source Folder
+>> 1.git clone https://github.com/easy2mine/wayi_backend.git 将项目clone到本地<br>
+>> 2.使用eclipse的maven方式打开项目<br>
+>> 3.找到wayi-web下的src/main/resources, 设置为Source Folder<br>
 
 
 本地启动
@@ -69,5 +68,3 @@ wayi_backend代码
 * 调整项目开发环境为 jdk1.8
 * 把wayi-web下application.properties 配置为local
 * 执行 wayi-web下webApplication.java 的 main 方法启动项目
-
-
